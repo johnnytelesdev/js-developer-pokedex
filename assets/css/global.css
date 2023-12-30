@@ -1,6 +1,8 @@
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+
+    
 }
 
 body {
@@ -8,17 +10,34 @@ body {
 }
 
 .content {
-    width: 100vw;
+    width: 90vw;
     height: 100vh;
     padding: 1rem;
     background-color: #fff;
 }
 
 @media screen and (min-width: 992px) {
+
+
+    
     .content {
         max-width: 992px;
         height: auto;
         margin: 1rem auto;
         border-radius: 1rem;
     }
+}
+
+.content h1 img {
+    
+    max-width: 40%;
+    height: 40px;
+
+    
+}
+
+.content h3{
+    padding: 1rem;
+    margin: auto;
+
 }
